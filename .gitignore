@@ -1,0 +1,18 @@
+# Ignore large raw and processed datasets
+data/
+*.csv
+*.parquet
+*.zip
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache & virtual environments
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Ignore OS system files
+.DS_Store
+Thumbs.db
